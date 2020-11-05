@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+    //buenas tardes
     public void abrirventana(View view){
         Intent intent = new Intent(this, ActivityDos.class);
         startActivity(intent);
